@@ -1,1 +1,161 @@
-/* No CSS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Oswald&display=swap");
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #343434;
+}
+
+strong {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.button {
+  padding: 15px 40px;
+  border: 2px solid #FFFFFF;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 444px;
+  height: 100%;
+  background: rgba(0, 91, 193, 0.6);
+}
+
+/* font-family: 'Oswald', sans-serif; */
+.header {
+  position: relative;
+  background-image: url(../img/Header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.header__title__wrap {
+  width: 635px;
+  padding: 202px 690px 201px 190px;
+  position: relative;
+  z-index: 1;
+}
+
+.header__subtitle {
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  margin: 40px 0;
+}
+
+.logo {
+  position: absolute;
+  left: 40px;
+  top: 11px;
+}
+
+.nav__list {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  background-color: rgba(0, 91, 193, 0.6);
+}
+
+.nav__item {
+  margin: 30px 14px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.features {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.features__title {
+  position: relative;
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 150px 0 70px 140px;
+}
+
+.features__title::before {
+  content: " ";
+  position: absolute;
+  left: -140px;
+  top: 15px;
+  display: block;
+  width: 100px;
+  height: 13px;
+  background-image: url(../img/decorTitle.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects__image {
+  position: relative;
+  width: 540px;
+  height: 400px;
+}
+
+.projects__image__description {
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  width: 250px;
+  height: 110px;
+  padding: 20px 0 0 25px;
+  background-color: #fff;
+}
