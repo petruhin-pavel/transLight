@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -7,193 +7,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Светотехническое оборудование в Петербурге</title>
   <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <img src="./img/logo.png" alt="Логотип" class="logo">
-    <nav class="header__nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Портфолио</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Каталог</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Сервис</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+    <nav class="header-nav">
+      <img src="./img/logo.png" alt="Логотип">
+      <ul>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Портфолио</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Сервис</a></li>
+        <li><a href="#">Контакты</a></li>
       </ul>
     </nav>
 
-    <div class="container">
-      <div class="frame"></div>
-      <div class="header__title__wrap">
-        <h1 class="header__title">Светотехническое оборудование в Петербурге</h1>
-        <p class="header__subtitle">Продажа, аренда светотехнического оборудования. Оформление официальных мероприятий
-          под
-          ключ.
-        </p>
-        <a href="#" class="button">ПЕРЕЙТИ</a>
-      </div>
+    <div class="overlay"></div>
+
+    <div class="header-title">
+      <h1>Светотехническое оборудование в Петербурге</h1>
+      <p>Продажа, аренда светотехнического оборудования. <br> Оформление официальных мероприятий</p>
+      <a href="#" class="button">ПЕРЕЙТИ</a>
     </div>
 
 
   </header>
-
-  <section class="features">
-    <h2 class="features__title">Наши проекты</h2>
-
-    <div class="projects">
-      <div class="projects__image">
-        <img src="./img/projectSlide1.png" alt="Световое оформление" class="projects__img">
-        <div class="projects__image__description"><strong>ССК “ОЛИМП”</strong> <br><br> Световое оформление форума
-          “Шубы-2019”
-        </div>
-      </div>
-
-      <div class="projects__image">
-        <img src="./img/projectSlide2.png" alt="Световое оформление" class="projects__img">
-        <div class="projects__image__description"><strong>ССК “ОЛИМП”</strong> <br><br> Световое оформление форума
-          “Шубы-2019”
-        </div>
-      </div>
-    </div>
-
-    <div class="slider__buttons">
-      <div class="slider__button slider__button_prev"></div>
-      <div class="slider__button slider__button__next"></div>
-    </div>
-  </section>
-
-  <section class="features">
-    <h2 class="features__title">Каталог продукции</h2>
-
-    <nav class="catalog__menu">
-      <ul class="catalog__menu__list">
-        <li class="catalog__menu__item"><button class="catalog__menu__button">Robe</button></li>
-        <li class="catalog__menu__item"><button class="catalog__menu__button">Compulite</button></li>
-      </ul>
-    </nav>
-
-    <div class="catalog">
-      <div class="catalog__image">
-        <img src="./img/productItem1.png" alt="Светодиодный прибор" class="catalog__img">
-        <div class="catalog__image__description">Статичные светодиодные приборы</div>
-      </div>
-
-      <div class="catalog__image">
-        <img src="./img/productItem2.png" alt="Контроллер" class="catalog__img">
-        <div class="catalog__image__description">Контроллеры</div>
-      </div>
-
-      <div class="catalog__image">
-        <img src="./img/productItem3.png" alt="Аксессуар" class="catalog__img">
-        <div class="catalog__image__description">Аксессуары</div>
-      </div>
-    </div>
-  </section>
-
-  <section class="features">
-    <h2 class="features__title">Аренда оборудования</h2>
-
-    <div class="rent">
-      <p class="rent__description">
-        Мы занимаемся прокатом светового и сценического оборудования ведущих мировых производителей, таких как Robe,
-        SGM, StudioDue, ChainMaster, Milos, Universal Effects, ArtLighting, MobilTech, Lampo, Martin, Spotlight,
-        Compulite, Eurolite и др.
-      </p>
-      <div class="rent__slider">
-        <div class="slider__cart">
-          <h3 class="slider__cart__title">Новое оборудование, предоставляемое в аренду:</h3>
-          <img src="./img/productItem3.png" alt="Аксессуар" class="slider__cart_img">
-          <div class="slider__cart__description">
-            <h3 class="slider__cart__description__title">Robe Robin ParFect 100</h3>
-            <ul class="slider__cart__description__list">
-              <li class="slider__cart__description__itme">Источник света 12 светодиодов RGBW по 15 Вт каждый</li>
-              <li class="slider__cart__description__itme">Угол раскрытия 7°</li>
-              <li class="slider__cart__description__itme">В комплекте рассеивающая линза 40°</li>
-              <li class="slider__cart__description__itme">Потребляемая мощность 200 Вт</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="features">
-    <h2 class="features__title">Новости</h2>
-    <div class="news">
-      <div class="news__cart_main">
-        <img src="./img/newsimg1.png" alt="Семинар Milos" class="news__cart__img_main">
-        <div class="news__cart__description">
-          <div class="news__cart__title__wrap">
-            <h3 class="news__cart__title">Семинар Milos</h3>
-            <div class="pablic__time">27.01.2019</div>
-          </div>
-          <p class="news__cart__text">
-            Наши сотрудники прошли последний семинар от компании Milos. Они получили новый объем знаний, который
-            позволит нашей компании заниматься оборудованием не только мероприятий, но производственных помещений.
-          </p>
-          <a href="#" class="news__cart__link">Читать полностью...</a>
-        </div>
-      </div>
-      <div class="news__cart">
-        <h3 class="news__cart__title">Выставка Prolight+Sound NAMM Russia 2016</h3>
-        <p class="news__cart__text">30 контрактов, тысячи восторженных посетителей...</p>
-        <div class="news__cart__img__wrap">
-          <img src="./img/newsimg2.png" alt="Семинар Milos" class="news__cart__img">
-          <div class="pablic__time">27.01.2019</div>
-        </div>
-      </div>
-      <div class="news__cart">
-        <h3 class="news__cart__title">Семинар Robe</h3>
-        <p class="news__cart__text">30 января 2017 года наши сотрудники побывали в Берлине..</p>
-        <div class="news__cart__img__wrap">
-          <img src="./img/newsimg3.png" alt="Семинар Milos" class="news__cart__img">
-          <div class="pablic__time">27.01.2019</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="footer">
-    <div class="footer__container">
-      <div class="footer__row">
-        <a href="tel:+78127108025" class="footer__telephone">(812) 710-80-25</a>
-        <div class="footer__adress">191180, Санкт-Петербург, Набережная реки Фонтанки, 90, корпус 1</div>
-        <a href="mailto:mail@translight.ru" class="footer__email">mail@translight.ru</a>
-      </div>
-
-      <div class="footer__row">
-        <nav class="footer__nav">
-          <ul class="footer__nav__list">
-            <li class="footer__nav__list__item">
-              <a href="#" class="footer__nav__list__link">О компании</a>
-            </li>
-            <li class="footer__nav__list__item">
-              <a href="#" class="footer__nav__list__link">Каталог</a>
-            </li>
-            <li class="footer__nav__list__item">
-              <a href="#" class="footer__nav__list__link">Наши проекты</a>
-            </li>
-            <li class="footer__nav__list__item">
-              <a href="#" class="footer__nav__list__link">Новости</a>
-            </li>
-            <li class="footer__nav__list__item">
-              <a href="#" class="footer__nav__list__link">Аренда</a>
-            </li>
-            <li class="footer__nav__list__item">
-              <a href="#" class="footer__nav__list__link">Сервисное обслуживание</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="footer__row">
-        <div class="footer__copyright">© 2019 ЗАО «Транслайт». Все права защищены.</div>
-        <div class="footer__author">Разработка - ilbuild.ru <br> Дизайн - D-e-n.ru</div>
-      </div>
-    </div>
-  </section>
-
 
 </body>
 
